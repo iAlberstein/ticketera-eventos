@@ -1,4 +1,5 @@
 import React from 'react';
+import EventList from './components/EventList';
 import './index.css';
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
         <h1 className="text-2xl font-bold">Ticketera de Eventos</h1>
       </header>
       <main className="container mx-auto p-4">
-        <h2 className="text-xl font-semibold">Bienvenido a la ticketera</h2>
-        <p className="mt-2">Aquí podrás comprar entradas para tus eventos favoritos.</p>
+        <h2 className="text-xl font-semibold mb-4">Eventos Disponibles</h2>
+        <EventList />
       </main>
     </div>
   );
